@@ -1,0 +1,112 @@
+
+
+body {
+  background-color: #009739; 
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 50px;
+}
+
+h1, h2 {
+  color: #ffcc29; 
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #004d99;
+}
+
+.container {
+  background-color: #003366; 
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #ffcc29;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.card {
+  background-color: #007f4f; 
+  border: none;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+}
+
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #ffcc29; 
+  font-weight: 700;
+}
+
+.card-text {
+  color: #e0e0e0;
+}
+
+button.btn-warning {
+  background-color: #ffcc29;
+  border: none;
+  color: #003366;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+button.btn-warning:hover {
+  background-color: #e6b822;
+  color: #002244;
+}
+
+button.btn-danger {
+  background-color: #c62828; 
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-danger:hover {
+  background-color: #8b1c1c;
+}
+
+#searchInput {
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  box-shadow: 0 0 10px #ffcc29;
+  background-color: #004d40; 
+  color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+#searchInput::placeholder {
+  color: #cce5b0;
+}
+
+#searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 15px #ffcc29;
+}
+
+canvas#graficoPizza {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 400px;
+  background-color: #007f4f;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #ffcc29;
+  padding: 10px;
+}
